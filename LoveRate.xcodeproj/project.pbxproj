@@ -56,15 +56,63 @@
 		FA0EC97D2958C32900ACDCBB /* LoveRate */ = {
 			isa = PBXGroup;
 			children = (
+				FA0EC9942958C39600ACDCBB /* View_Model */,
+				FA0EC9932958C38D00ACDCBB /* Model */,
+				FA0EC9922958C37F00ACDCBB /* View */,
+				FA0EC9972958C44800ACDCBB /* Managers */,
+				FA0EC9962958C41100ACDCBB /* Resources */,
+				FA0EC9952958C3E300ACDCBB /* Storyboard */,
 				FA0EC97E2958C32900ACDCBB /* AppDelegate.swift */,
 				FA0EC9802958C32900ACDCBB /* SceneDelegate.swift */,
-				FA0EC9822958C32900ACDCBB /* ViewController.swift */,
-				FA0EC9842958C32900ACDCBB /* Main.storyboard */,
 				FA0EC9872958C32C00ACDCBB /* Assets.xcassets */,
-				FA0EC9892958C32C00ACDCBB /* LaunchScreen.storyboard */,
 				FA0EC98C2958C32C00ACDCBB /* Info.plist */,
 			);
 			path = LoveRate;
+			sourceTree = "<group>";
+		};
+		FA0EC9922958C37F00ACDCBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EC9822958C32900ACDCBB /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA0EC9932958C38D00ACDCBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA0EC9942958C39600ACDCBB /* View_Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View_Model;
+			sourceTree = "<group>";
+		};
+		FA0EC9952958C3E300ACDCBB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EC9842958C32900ACDCBB /* Main.storyboard */,
+				FA0EC9892958C32C00ACDCBB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FA0EC9962958C41100ACDCBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA0EC9972958C44800ACDCBB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,9 +340,11 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoveRate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoveRate;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +370,11 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoveRate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoveRate;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
