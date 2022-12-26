@@ -13,6 +13,8 @@
 		FA0EC9862958C32900ACDCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0EC9842958C32900ACDCBB /* Main.storyboard */; };
 		FA0EC9882958C32C00ACDCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0EC9872958C32C00ACDCBB /* Assets.xcassets */; };
 		FA0EC98B2958C32C00ACDCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0EC9892958C32C00ACDCBB /* LaunchScreen.storyboard */; };
+		FAD90448295994DB0086A555 /* Love.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAD90447295994DB0086A555 /* Love.otf */; };
+		FAD9044A2959957C0086A555 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD904492959957C0086A555 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA0EC9872958C32C00ACDCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0EC98A2958C32C00ACDCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0EC98C2958C32C00ACDCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD90447295994DB0086A555 /* Love.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Love.otf; sourceTree = "<group>"; };
+		FAD904492959957C0086A555 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		FA0EC9962958C41100ACDCBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAD90444295993CB0086A555 /* font */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -111,8 +116,17 @@
 		FA0EC9972958C44800ACDCBB /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FAD904492959957C0086A555 /* Colors.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		FAD90444295993CB0086A555 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				FAD90447295994DB0086A555 /* Love.otf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0EC98B2958C32C00ACDCBB /* LaunchScreen.storyboard in Resources */,
+				FAD90448295994DB0086A555 /* Love.otf in Resources */,
 				FA0EC9882958C32C00ACDCBB /* Assets.xcassets in Resources */,
 				FA0EC9862958C32900ACDCBB /* Main.storyboard in Resources */,
 			);
@@ -187,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0EC9832958C32900ACDCBB /* ViewController.swift in Sources */,
+				FAD9044A2959957C0086A555 /* Colors.swift in Sources */,
 				FA0EC97F2958C32900ACDCBB /* AppDelegate.swift in Sources */,
 				FA0EC9812958C32900ACDCBB /* SceneDelegate.swift in Sources */,
 			);
