@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA68CC312C42B27600C82C89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68CC302C42B27600C82C89 /* MainView.swift */; };
+		FA68CC352C42B32400C82C89 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68CC342C42B32400C82C89 /* SettingView.swift */; };
+		FA68CC392C42B3C700C82C89 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68CC382C42B3C700C82C89 /* TopListView.swift */; };
+		FA68CC3B2C42B44E00C82C89 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68CC3A2C42B44E00C82C89 /* HistoryView.swift */; };
 		FAA2AF022C4148380079AF6A /* LoveRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2AF012C4148380079AF6A /* LoveRateApp.swift */; };
 		FAA2AF042C4148380079AF6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2AF032C4148380079AF6A /* ContentView.swift */; };
 		FAA2AF062C41483A0079AF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2AF052C41483A0079AF6A /* Assets.xcassets */; };
 		FAA2AF092C41483A0079AF6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2AF082C41483A0079AF6A /* Preview Assets.xcassets */; };
 		FAA2AF0B2C41483A0079AF6A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2AF0A2C41483A0079AF6A /* Persistence.swift */; };
 		FAA2AF0E2C41483A0079AF6A /* LoveRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA2AF0C2C41483A0079AF6A /* LoveRate.xcdatamodeld */; };
+		FAA2AF152C414C7B0079AF6A /* tetsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2AF142C414C7B0079AF6A /* tetsts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA68CC302C42B27600C82C89 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA68CC342C42B32400C82C89 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		FA68CC382C42B3C700C82C89 /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
+		FA68CC3A2C42B44E00C82C89 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		FAA2AEFE2C4148380079AF6A /* LoveRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2AF012C4148380079AF6A /* LoveRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveRateApp.swift; sourceTree = "<group>"; };
 		FAA2AF032C4148380079AF6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +32,7 @@
 		FAA2AF082C41483A0079AF6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA2AF0A2C41483A0079AF6A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FAA2AF0D2C41483A0079AF6A /* LoveRate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveRate.xcdatamodel; sourceTree = "<group>"; };
+		FAA2AF142C414C7B0079AF6A /* tetsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetsts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA68CC252C42A79B00C82C89 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2AF012C4148380079AF6A /* LoveRateApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA68CC262C42A7A500C82C89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA68CC272C42A7B000C82C89 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2AF0A2C41483A0079AF6A /* Persistence.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FA68CC282C42A7B000C82C89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2AF052C41483A0079AF6A /* Assets.xcassets */,
+				FAA2AF0C2C41483A0079AF6A /* LoveRate.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA68CC292C42A7B900C82C89 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2AF032C4148380079AF6A /* ContentView.swift */,
+				FA68CC302C42B27600C82C89 /* MainView.swift */,
+				FA68CC342C42B32400C82C89 /* SettingView.swift */,
+				FA68CC382C42B3C700C82C89 /* TopListView.swift */,
+				FA68CC3A2C42B44E00C82C89 /* HistoryView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		FAA2AEF52C4148380079AF6A = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +109,13 @@
 		FAA2AF002C4148380079AF6A /* LoveRate */ = {
 			isa = PBXGroup;
 			children = (
-				FAA2AF012C4148380079AF6A /* LoveRateApp.swift */,
-				FAA2AF032C4148380079AF6A /* ContentView.swift */,
-				FAA2AF052C41483A0079AF6A /* Assets.xcassets */,
-				FAA2AF0A2C41483A0079AF6A /* Persistence.swift */,
-				FAA2AF0C2C41483A0079AF6A /* LoveRate.xcdatamodeld */,
+				FA68CC252C42A79B00C82C89 /* Application */,
+				FA68CC262C42A7A500C82C89 /* Extensions */,
+				FA68CC272C42A7B000C82C89 /* Managers */,
 				FAA2AF072C41483A0079AF6A /* Preview Content */,
+				FA68CC282C42A7B000C82C89 /* Resources */,
+				FA68CC292C42A7B900C82C89 /* Screens */,
+				FAA2AF142C414C7B0079AF6A /* tetsts.swift */,
 			);
 			path = LoveRate;
 			sourceTree = "<group>";
@@ -144,9 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA2AF0B2C41483A0079AF6A /* Persistence.swift in Sources */,
+				FA68CC392C42B3C700C82C89 /* TopListView.swift in Sources */,
+				FA68CC312C42B27600C82C89 /* MainView.swift in Sources */,
 				FAA2AF042C4148380079AF6A /* ContentView.swift in Sources */,
 				FAA2AF022C4148380079AF6A /* LoveRateApp.swift in Sources */,
+				FA68CC352C42B32400C82C89 /* SettingView.swift in Sources */,
+				FA68CC3B2C42B44E00C82C89 /* HistoryView.swift in Sources */,
 				FAA2AF0E2C41483A0079AF6A /* LoveRate.xcdatamodeld in Sources */,
+				FAA2AF152C414C7B0079AF6A /* tetsts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

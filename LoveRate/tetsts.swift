@@ -1,10 +1,12 @@
 //
-//  ContentView.swift
+//  tetsts.swift
 //  LoveRate
 //
 //  Created by Shishir_Mac on 12/7/24.
 //
 
+import Foundation
+/*
 import SwiftUI
 import CoreData
 
@@ -86,3 +88,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+*/
